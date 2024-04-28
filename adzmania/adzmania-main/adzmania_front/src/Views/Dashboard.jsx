@@ -1,0 +1,13 @@
+import React from "react";
+import "../index.css";
+import Cards from "./Cards";
+import OrdersTable from "./OrderTables";
+function Dashboard() {
+  return (
+    <div className="container p-10 mx-auto">
+      <Cards />
+      <OrdersTable />
+    </div>
+  );
+}
+export default Dashboard;
